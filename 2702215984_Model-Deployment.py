@@ -57,7 +57,6 @@ def main():
         features = {
             "no_of_adults": no_of_adults,
             "no_of_children": no_of_children,
-            "no_of_guests": no_of_guests,
             "no_of_weekend_nights": no_of_weekend_nights,
             "no_of_week_nights": no_of_week_nights,
             "type_of_meal_plan": type_of_meal_plan,
@@ -73,6 +72,7 @@ def main():
             "no_of_previous_bookings_not_canceled": no_of_previous_bookings_not_canceled,
             "avg_price_per_room": avg_price_per_room,
             "no_of_special_requests": no_of_special_requests,
+            "no_of_guests": no_of_guests
         }
 
         #Predict
